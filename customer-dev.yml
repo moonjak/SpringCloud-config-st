@@ -1,4 +1,4 @@
-uspring:
+spring:
   profiles:
     active:
     - dev
@@ -7,11 +7,11 @@ spring:
   profiles: dev     #开发环境
   application: 
     name: Customer-dev
-version： v_dev
+version: v_dev
 ---
 spring:
   profiles: test   #测试环境
   application: 
     name: Customer-test
-version： v_test
+version: v_test
 #  请保存为UTF-8格式
